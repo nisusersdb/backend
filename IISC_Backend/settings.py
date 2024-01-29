@@ -23,9 +23,9 @@ BASE_DIR = Path(__file__).resolve().parent.parent
 SECRET_KEY = '7cff5fb4f0a35e5ca1dae1b4eb26a258'
 
 # SECURITY WARNING: don't run with debug turned on in production!
-DEBUG = True
+DEBUG = False
 
-ALLOWED_HOSTS = ['localhost', 'sarvagya.pythonanywhere.com', 'https://iisc-backend.onrender.com']
+ALLOWED_HOSTS = ['localhost', 'iiscsercblr.pythonanywhere.com', 'https://iisc-backend.onrender.com']
 
 
 # Application definition
